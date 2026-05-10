@@ -9,7 +9,7 @@ If you use this code, please cite our paper.
 ---
 # Citation
 Once the paper is published, the full citation information will be provided here.For now, you may cite this repository as:
-Zhou, J., Liu, J. (2026). Lightweight Visual Detection Framework for Small Vehicles in UAV Aerial Highway Construction Scenes. GitHub Repository. https://github.com/[YOUR_GITHUB_USERNAME]/LC-YOLO
+Zhou, J., Liu, J. (2026). Lightweight Visual Detection Framework for Small Vehicles in UAV Aerial Highway Construction Scenes. GitHub Repository. https://github.com/Azhou1999/LC-YOLO
 
 
 1. Environment Installation
@@ -42,8 +42,10 @@ yolo detect train model=LC-YOLO.yaml data=your_data.yaml epochs=400 batch=8 imgs
 yolo detect predict model=path/to/best.pt source=path/to/image
 
 7. Code Availability
-GitHub: https://github.com/[你的 GitHub 名字]/LC-YOLO
-DOI: [你的 DOI]
+GitHub: https://github.com/Azhou1999/LC-YOLO
+
+8. Detailed access information for each dataset is provided as follows.
+UAV-HLCV: This dataset can be freely downloaded from Baidu Netdisk via the following permanent link: https://www.123865.com/s/hwQ8jv-Yb7Kd?pwd=1999 #. Visdrone: This dataset is accessible through the dedicated sharing link: https://github.com/VisDrone/VisDrone-Dataset. Construction PPE: Researchers can obtain this data set from the link: https://www.123865.com/s/hwQ8jv-eY7Kd, with access password: s5RA. The link and password are maintained to ensure long-term retrievability of the dataset. 
 
 
 
